@@ -1,0 +1,87 @@
+.navigation {
+   transition: .2s ease;
+   padding: 15px 0;
+
+   &.nav-bg {
+      background: $white;
+      @extend .shadow;
+   }
+
+   @include desktop {
+      .form-inline {
+         width: 100%;
+
+         input {
+            width: 100%;
+         }
+      }
+   }
+}
+
+.navbar-item {
+   text-transform: capitalize;
+   color: $text-color-dark;
+   &:focus,
+   &:hover {
+      background-color: transparent !important;
+      color: $primary-color !important;
+   }
+}
+
+.navbar-brand .navbar-item {
+   @include desktop {
+      padding-left: 0;
+   }
+}
+
+.navbar-brand {
+   align-items: center;
+   img {
+      max-height: initial;
+   }
+}
+
+.navbar-start .navbar-item {
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.is-sticky-top {
+   position: sticky;
+   top: 0;
+   z-index: 9997;
+}
+.navbar-burger {
+   color: #000;
+   height: 2.7rem;
+   width: 2.7rem;
+   border: 1px solid #ddd;
+   background-color: $white;
+   border-radius: 2px;
+   top: 5px;
+   &:hover {
+      background-color: $white;
+   }
+}
+
+@include desktop {
+   .navbar-menu {
+      padding: 1.5rem 0;
+      text-align: center;
+   }
+   .navbar-end {
+      margin: 12px 0 2px;
+      .btn {
+         margin-left: 5px !important;
+         margin-right: 5px !important;
+         margin-top: 5px;
+      }
+   }
+   .hide-on-desktop {
+      display: none;
+   }
+   .show-on-desktop {
+      display: block !important;
+      margin-top: 20px;
+  }
+}

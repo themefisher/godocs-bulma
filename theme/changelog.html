@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<!--
+ // WEBSITE: https://themefisher.com
+ // TWITTER: https://twitter.com/themefisher
+ // FACEBOOK: https://www.facebook.com/themefisher
+ // GITHUB: https://github.com/themefisher/
+-->
+
+<html lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <title>GoDocs documentation theme</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- plugins -->
+  <link rel="stylesheet" href="plugins/bulma/bulma.min.css">
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+  
+  <!--Favicon-->
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+<nav class="is-sticky-top navbar navigation" role="navigation" aria-label="main navigation">
+   <div class="container">
+      <div class="navbar-brand">
+         <a class="navbar-item" href="index.html">
+            <img class="img-fluid" src="images/logo.png" alt="godocs" width="155px">
+         </a>
+   
+         <a role="button" class="navbar-burger burger" aria-expanded="false" data-target="navbar-links">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+         </a>
+      </div>
+   
+      <div id="navbar-links" class="navbar-menu">
+         <div class="navbar-start ml-auto">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" href="search.html">Search Page</a>
+         </div>
+   
+         <div class="navbar-end ml-0">
+            <div class="navbar-item py-0">
+               <form class="search-wrapper hide-on-desktop my-3" class="search-wrapper" action="search.html">
+                  <input id="search-by" name="s" type="search" class="input" placeholder="Search here ...">
+                  <button class="border-0 bg-white p-3" type="submit"><i class="ti-search"></i></button>
+               </form>
+
+               <a href="changelog.html" class="btn btn-sm btn-outline-primary ml-4">changelog</a>
+               <a href="contact.html" class="btn btn-sm btn-primary ml-4">contact</a>
+            </div>
+         </div>
+      </div>
+      <form class="search-wrapper is-hidden show-on-desktop" class="search-wrapper" action="search.html">
+         <input id="search-by" name="s" type="search" class="input" placeholder="Search here ...">
+         <button class="border-0 bg-white p-3" type="submit"><i class="ti-search"></i></button>
+      </form>
+   </div>
+</nav>
+
+<section class="section">
+   <div class="container">
+      <div class="columns is-desktop is-justify-content-center">
+         <div class="column is-10-desktop">
+            <div class="p-6 shadow rounded content">
+               <h1>Changelog posts</h1>
+               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt dolore
+                  magna aliquyam erat, sed diam voluptua. At vero eos et ustoLorem ipsum dolor sit amet, consetetur.</p>
+               <div class="mt-6">
+
+                  <!-- changelog post -->
+                  <h3 id="february-updates">February Updates</h3>
+                  <p><strong>Feb 6, 2019</strong></p>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                     dolore
+                     magna aliquyam erat, sed diam voluptua. At vero eos et ustoLorem ipsum dolor sit amet,
+                     consetetur.&rdquo;
+                  </p>
+                  <div class="mt-5">
+                     <div class="badge changed">Changed</div>
+                     <ul>
+                        <li>
+                           <p>Better support for using applying additional filters to posts_tax_query for categories for
+                              custom
+                              WordPress syncs</p>
+                        </li>
+                        <li>
+                           <p>Reporting fine-tuning for speed improvements (up to 60% improvement in latency)</p>
+                        </li>
+                        <li>
+                           <p>Replaced login / registration pre-app screens with a cleaner design</p>
+                        </li>
+                     </ul>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge removed">Removed</div>
+                     <ul>
+                        <li>Removed an issue with the sync autolinker only interlinking selectively.</li>
+                        <li>Removed up an issue with prematurely logging out users</li>
+                     </ul>
+                  </div>
+
+                  <hr>
+
+                  <!-- changelog post -->
+                  <h3 id="march-updates">March Updates</h3>
+                  <p><strong>Mar 6, 2019</strong></p>
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br>
+                     invidunt
+                     dolore magna aliquyam erat, sed diam voluptua. At vero eos et ustoLorem ipsum dolor sit amet,
+                     consetetur.&rdquo;</p>
+                  <div class="mt-5">
+                     <div class="badge added">Added</div>
+                     <ul>
+                        <li>Some scheduled changelogs, tweets, and slack messages queued up this weekend and were not
+                           published
+                           on time. We fixed the issue and all delayed publications should be out.</li>
+                        <li>We now prioritize keywords over title and body so customers can more effectively influence
+                           search
+                           results</li>
+                        <li>Support form in the Assistant is now protected with reCaptcha to reduce spam
+                           reinitializeOnUrlChange
+                           added to the JavaScript API to improve support for pages with turbolinks</li>
+                     </ul>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge fixed">Fixed</div>
+                     <ul>
+                        <li>Fixed an issue with the sync autolinker only interlinking selectively.</li>
+                        <li>Fixed up an issue with prematurely logging out users</li>
+                     </ul>
+                  </div>
+
+                  <hr>
+
+                  <!-- changelog post -->
+                  <h3 id="changelog-label">Changelog label</h3>
+                  <div class="mt-5">
+                     <div class="badge added">Added</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge changed">Changed</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge depricated">Depricated</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge removed">Removed</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge fixed">Fixed</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge security">Security</div>
+                  </div>
+                  <div class="mt-5">
+                     <div class="badge unreleased">Unreleased</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+<footer>
+   <div class="container">
+      <div class="columns is-multiline is-align-items-center border-bottom py-5">
+         <div class="column is-4-desktop is-12-tablet">
+            <ul class="list-inline footer-menu has-text-centered has-text-left-desktop">
+               <li class="list-inline-item"><a href="changelog.html">Changelog</a></li>
+               <li class="list-inline-item"><a href="contact.html">contact</a></li>
+               <li class="list-inline-item"><a href="search.html">Search</a></li>
+            </ul>
+         </div>
+         <div class="column is-4-desktop is-12-tablet">
+            <a class="navbar-brand is-justify-content-center" href="index.html">
+               <img class="img-fluid" src="images/logo.png" alt="Hugo documentation theme">
+            </a>
+         </div>
+         <div class="column is-4-desktop is-12-tablet">
+            <ul class="list-inline social-icons has-text-right-desktop has-text-centered">
+               <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+               <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+               <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+               <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <div class="py-4 has-text-centered">
+         <small class="text-light">Copyright © 2020 - Design &amp; Developed by <a href="https://themefisher.com">themefisher</a></small>
+      </div>
+   </div>
+</footer>
+
+<!-- plugins -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<script src="plugins/masonry/masonry.min.js"></script>
+<script src="plugins/clipboard/clipboard.min.js"></script>
+<script src="plugins/match-height/jquery.matchHeight-min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
