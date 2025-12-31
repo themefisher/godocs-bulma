@@ -1,6 +1,6 @@
 # godocs Free Bulma Portfolio Template
 
-![godocs](https://demo.themefisher.com/thumbnails/godocs.png)
+![godocs](https://assets.teamosis.com/thumbs/godocs.png)
 
 👉🏻[View Live Preview](https://demo.themefisher.com/godocs-bulma/)
 
